@@ -37,22 +37,19 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#hero" class="nav__link">Home</a>
+                            <a href="#hero" class="nav__link" data-section="Header" data-value="Home">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="#about" class="nav__link" data-section="Header" data-value="About">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#qualification" class="nav__link">Qualification</a>
+                            <a href="#qualification" class="nav__link" data-section="Header" data-value="Qualification">Qualification</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#service" class="nav__link">Services</a>
+                            <a href="#project" class="nav__link" data-section="Header" data-value="Projects">Projects</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#project" class="nav__link">Projects</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact</a>
+                            <a href="#contact" class="nav__link" data-section="Header" data-value="Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,6 +58,15 @@
                 </div>
             </nav>
         </div>
+        <div id="Flags" class="Flags">
+                <div class="flags__item" data-language="es">
+                    <img class="flags__img" src="/assets/img/es.svg" alt="">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img class="flags__img" src="/assets/img/gb.svg" alt="">
+                </div>
+        </div>
+
     </header>
     <!--=================== main ====================-->
     <main class="main">
@@ -69,20 +75,20 @@
             <div class="container">
                 <div class="d-grid hero__wrapper">
                     <div class="hero__content">
-                        <h1 class="hero__title">Hi, I am Santiago Yalux,<br>.Net Developer.</h1>
-                        <p class="hero__description">¡Hola!, me llamo Santiago, soy programador .Net con más de 2 años de experiencia. </p>
+                        <h1 class="hero__title" data-section="Home" data-value="rol">Hi, I am Santiago Yalux,<br>.Net Developer.</h1>
+                        <p class="hero__description" data-section="Home" data-value="description">¡Hola!, me llamo Santiago, soy programador .Net con más de 2 años de experiencia. </p>
                         <div class="hero__info">
                             <div class="hero__info-wrapper">
                                 <p class="hero__info-number">03</p>
-                                <h2 class="hero__info-title">Years<br>Experience</h2>
+                                <h2 class="hero__info-title" data-section="Home" data-value="years_experience">Years<br>Experience</h2>
                             </div>
                             <div class="hero__info-wrapper">
                                 <p class="hero__info-number">5+</p>
-                                <h2 class="hero__info-title">Projects<br>Completed</h2>
+                                <h2 class="hero__info-title" data-section="Home" data-value="projects_completed">Projects<br>Completed</h2>
                             </div>
                             <div class="hero__info-wrapper">
                                 <p class="hero__info-number">02</p>
-                                <h2 class="hero__info-title">Companies<br> Worked</h2>
+                                <h2 class="hero__info-title" data-section="Home" data-value="companies_worked">Companies<br> Worked</h2>
                             </div>
                         </div>
                     </div>
@@ -95,7 +101,7 @@
         <section id="about" class="section about">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">About Me</h2>
+                    <h2 class="section__title" data-section="About" data-value="About-title">About Me</h2>
                     <span class="section__subtitle">Who am I</span>
                 </div>
                 <div class="d-grid about__wrapper">
@@ -224,14 +230,13 @@
         </section>
 
         <!--=================== services ====================-->
-        <section id="service" class="section service">
+        <!-- <section id="service" class="section service">
             <div class="container">
                 <div class="section__header">
                     <h2 class="section__title">Services</h2>
                     <span class="section__subtitle">What I do</span>
                 </div>
                 <div class="d-grid service__wrapper">
-                    <!--========= service card 1 =========-->
                     <div class="service__card">
                         <div class="service__icon">
                             <i class="ri-layout-4-fill"></i>
@@ -239,7 +244,6 @@
                         <h3 class="service__title">Frontend<br>Development</h3>
                         <a href="#" class="service__link">Know More</a>
                     </div>
-                    <!--========= service card 2 =========-->
                     <div class="service__card">
                         <div class="service__icon">
                             <i class="ri-code-s-slash-line"></i>
@@ -247,7 +251,6 @@
                         <h3 class="service__title">Backend<br> Development</h3>
                         <a href="#" class="service__link">Know More</a>
                     </div>
-                    <!--========= service card 3 =========-->
                     <div class="service__card">
                         <div class="service__icon">
                             <i class="ri-pen-nib-fill"></i>
@@ -257,7 +260,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--=================== Projects ====================-->
         <section id="project" class="section project">
@@ -410,6 +413,7 @@
 
     <!--=================== Main JS ====================-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/scripsLanguage.js"></script>
 </body>
 
 </html>

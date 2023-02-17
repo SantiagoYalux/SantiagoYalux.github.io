@@ -238,6 +238,22 @@ body {
   color: var(--color-primary);
 }
 
+/*Header change language*/
+.flags{
+ width: 75px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between; 
+}
+
+.flags__item{
+  width: 30px;
+}
+.flags__img{
+  cursor: pointer;
+  display: block;
+}
+
 @media screen and (max-width: 968px) {
   .nav__list {
     flex-direction: column;

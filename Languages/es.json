@@ -1,0 +1,28 @@
+{
+    "Header":{
+        "Home":"Home",
+        "About":"Sobre",
+        "Qualification":"Formación",
+        "Projects":"Proyectos",
+        "Contact":"Contacto"
+    },
+    "Home":{
+        "rol":"Hola, soy Santiago Yalux, Desarrollador .NET",
+        "description":"¡Hola!, me llamo Santiago, soy programador .Net con más de 2 años de experiencia. Apasionado por aprender y crecer profesionalmente",
+        "years_experience":"Años de experiencia",
+        "projects_completed":"Proyectos completados",
+        "companies_worked":"Compañias"
+    },
+    "About":{
+
+    },
+    "Qualification":{
+
+    },
+    "Projects":{
+
+    },
+    "Contact":{
+        
+    }
+}
