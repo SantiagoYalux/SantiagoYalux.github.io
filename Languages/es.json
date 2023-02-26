@@ -1,28 +1,45 @@
 {
     "Header":{
-        "Home":"Home",
+        "Home":"Inicio",
         "About":"Sobre",
         "Qualification":"Formación",
-        "Projects":"Proyectos",
         "Contact":"Contacto"
     },
     "Home":{
         "rol":"Hola, soy Santiago Yalux, Desarrollador .NET",
         "description":"¡Hola!, me llamo Santiago, soy programador .Net con más de 2 años de experiencia. Apasionado por aprender y crecer profesionalmente",
-        "years_experience":"Años de experiencia",
-        "projects_completed":"Proyectos completados",
-        "companies_worked":"Compañias"
+        "years_experience":"Años de <br> experiencia",
+        "projects_completed":"Proyectos <br> completados",
+        "companies_worked":"Empresas de <br> software"
     },
     "About":{
-
+        "title":"Sobre mí",
+        "subtitle":"Quien soy",
+        "title-2":"Acerca de mí",
+        "description":"Aprendiendo programación desde los 17 años, me apasiona solucionar problemas y trabajar en equipo,",
+        "TechnologiesTitle":"Tecnologías con las cuales trabajo"
     },
     "Qualification":{
+        "title": "Recorrido",
+        "subtitle":"Experiencia y educación"
+    },
+    "ProfessionalExperience":{
+        "titleProfessionalExperience":"<i class='ri-briefcase-fill'></i>Experiencia profesional",
+        "medexisDes":"Desarrollo en aplicación Medexis, utilizando Visual Basic .net DeKlarit, Visual web GUI and SQL server",
+        "infomanagerDes":"Desarrollo Asp.net web apps con SqlYog"
+    },
+    "Education":{
+        "EducationTitle":"<i class='ri-booklet-fill'></i>Educación",
+        "EducationUntDesc":"Promedio 8,57",
+        "EducationFundaLeonDesc":"Windows Form, lenguaje programación c#, programación orientada a objetos. Conexión a base de datos Sql Server con entity framework, implementación de patron de diseño MVC. Trabajos grupales poniendo en práctica metodología SCRUM",
+        "EducationAutodidact":"Aprendizaje de forma actudidacta, APIS openbootcamp,Oracle next education (Java spring)",
+        "resume":"Mira mi CV",
+        "btnResume":"Cv"
 
     },
-    "Projects":{
-
-    },
-    "Contact":{
-        
+    "Footer":{
+        "FollowMe":"Sígueme",
+        "EmailMe":"Mándame un Mail",
+        "CallMe":"Llámame"
     }
 }

@@ -1,36 +1,45 @@
 {
     "Header":{
         "Home":"Home",
-        "About":"Sobre",
-        "Qualification":"Formación",
-        "Projects":"Proyectos",
-        "Contact":"Contacto"
+        "About":"About",
+        "Qualification":"Qualification",
+        "Contact":"Contact"
     },
     "Home":{
-        "rol":"Hola, soy Santiago Yalux, Desarrollador .NET",
-        "description":"¡Hola!, me llamo Santiago, soy programador .Net con más de 2 años de experiencia. Apasionado por aprender y crecer profesionalmente",
-        "years_experience":"Años de experiencia",
-        "projects_completed":"Proyectos completados",
-        "companies_worked":"Compañias"
+        "rol":"Hi, I am Santiago Yalux,.NET Developer",
+        "description":"Hello! My name is Santiago, I am a .Net programmer with more than 2 years of experience. Passionate about learning and growing professionally",
+        "years_experience":"Years <br> Experience",
+        "projects_completed":"Projects <br> Completed",
+        "companies_worked":"Companies <br> Worked"
     },
     "About":{
-        "title":"Sobre mí",
-        "subtitle":"Quien soy",
-        "title-2":"Acerca de mí",
-        "description":"Aprendiendo programación desde los 17 años, me apasiona solucionar problemas y trabajar en equipo,",
-        "TechnologiesTitle":"Tecnologias"
+        "title":"About Me",
+        "subtitle":"Who am I",
+        "title-2":"Who am I",
+        "description":"Learning programming since I was 17 years old, I am passionate about solving problems and working as a team",
+        "TechnologiesTitle":"Technologies I've been working with:"
     },
     "Qualification":{
-        "title": "Recorrido",
-        "subtitle":"Experiencia y educación"
+        "title": "Qualification",
+        "subtitle":"Experience & Education"
     },
-    "Professional Experience":{
-        
+    "ProfessionalExperience":{
+        "titleProfessionalExperience":"<i class='ri-briefcase-fill'></i>Professional Experience",
+        "medexisDes":"Developing the Medexis application, written in Visual Basic .net using DeKlarit, Visual Web GUI and SQL Server",
+        "infomanagerDes":"Developing asp.net web apps with sqlyog"
     },
-    "Projects":{
+    "Education":{
+        "EducationTitle":"<i class='ri-booklet-fill'></i>Education",
+        "EducationUntDesc":"Undergraduate degree (8,57)",
+        "EducationFundaLeonDesc":"Windows Form with c#, object-oriented programming. Connection to Sql Server database with entity framework, implementation of MVC design pattern. Group work putting into practice SCRUM methodology",
+        "EducationAutodidact":"Autodidact learning, APIS openbootcamp,Oracle next education (Java spring)",
+        "resume":"See my full resume",
+        "btnResume":"Resume"
 
     },
-    "Contact":{
-        
+    "Footer":{
+        "FollowMe":"Follow Me",
+        "EmailMe":"Email Me",
+        "CallMe":"Call Me"
     }
 }

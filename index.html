@@ -46,10 +46,7 @@
                             <a href="#qualification" class="nav__link" data-section="Header"
                                 data-value="Qualification">Qualification</a>
                         </li>
-                        <li class="nav__item">
-                            <a href="#project" class="nav__link" data-section="Header"
-                                data-value="Projects">Projects</a>
-                        </li>
+
                         <li class="nav__item">
                             <a href="#contact" class="nav__link" data-section="Header" data-value="Contact">Contact</a>
                         </li>
@@ -79,8 +76,7 @@
                     <div class="hero__content">
                         <h1 class="hero__title" data-section="Home" data-value="rol">Hi, I am Santiago Yalux,<br>.Net
                             Developer.</h1>
-                        <p class="hero__description" data-section="Home" data-value="description">¡Hola!, me llamo
-                            Santiago, soy programador .Net con más de 2 años de experiencia. </p>
+                        <p class="hero__description" data-section="Home" data-value="description">Hello! My name is Santiago, I am a .Net programmer with more than 2 years of experience. Passionate about learning and growing professionally</p>
                         <div class="hero__info">
                             <div class="hero__info-wrapper">
                                 <p class="hero__info-number">03</p>
@@ -114,8 +110,7 @@
                 <div class="d-grid about__wrapper">
                     <div class="about__content">
                         <!-- <h3 class="about__title" data-section="About" data-value="title-2">Acerca de mí</h3> -->
-                        <p class="about__description" data-section="About" data-value="description">Aprendiendo
-                            programación desde los 17 años, me apasiona solucionar problemas y trabajar en equipo </p>
+                        <p class="about__description" data-section="About" data-value="description">Learning programming since I was 17 years old, I am passionate about solving problems and working as a team</p>
                     </div>
                     <div class="skills">
                         <h3 class="skills__title" data-section="About" data-value="TechnologiesTitle">Technologies I've
@@ -166,21 +161,21 @@
                 </div>
                 <!--============== Professional Experience ============-->
                 <div class="qualification__wrapper">
-                    <h3 class="qualification__name">
-                        <i class="ri-briefcase-fill" data-section="ProfessionalExperience"></i>
+                    <h3 class="qualification__name" data-section="ProfessionalExperience" data-value="titleProfessionalExperience">
+                        <i class='ri-briefcase-fill'></i>
                         Professional Experience
                     </h3>
                     <div class="d-grid qualification__content">
                         <!-- Experience 1-->
                         <div class="qualification__item">
                             <h3 class="qualification__title" data-section="ProfessionalExperience">Medexis</h3>
-                            <p class="qualification__description" data-section="Professional Experience">Developing the Medexis application, written in Visual Basic .net using DeKlarit, Visual Web GUI and SQL Server</p>
-                            <span class="qualification__date" data-section="ProfessionalExperience">2022 - Present</span>
+                            <p class="qualification__description" data-section="ProfessionalExperience" data-value="medexisDes">Developing the Medexis application, written in Visual Basic .net using DeKlarit, Visual Web GUI and SQL Server</p>
+                            <span class="qualification__date" data-section="ProfessionalExperience">2022 - ...</span>
                         </div>
                         <!-- Experience 2-->
                         <div class="qualification__item">
                             <h3 class="qualification__title">Infomanager</h3>
-                            <p class="qualification__description">Developing asp.net web app, with sqlyog</p>
+                            <p class="qualification__description" data-section="ProfessionalExperience" data-value="infomanagerDes">Developing asp.net web app, with sqlyog</p>
                             <span class="qualification__date">2022 - 2022</span>
                         </div>
 
@@ -188,7 +183,7 @@
                 </div>
                 <!--============== Education ============-->
                 <div class="qualification__wrapper">
-                    <h3 class="qualification__name">
+                    <h3 class="qualification__name" data-section="Education" data-value="EducationTitle">
                         <i class="ri-booklet-fill"></i>
                         Education
                     </h3>
@@ -196,26 +191,26 @@
                         <!-- Education 1-->
                         <div class="qualification__item">
                             <h3 class="qualification__title">Universidad Nacional de Tucumán</h3>
-                            <p class="qualification__description">Undergraduate degree, (8,59)</p>
+                            <p class="qualification__description" data-section="Education" data-value="EducationUntDesc">Undergraduate degree, (8,59)</p>
                             <span class="qualification__date">2021 - 2024</span>
                         </div>
                         <!-- Education 2-->
                         <div class="qualification__item">
                             <h3 class="qualification__title">Fundación León</h3>
-                            <p class="qualification__description">Windows Form, lenguaje programación c#, programación orientada a objetos. Conexión a base de datos Sql Server con entity framework, implementación de patron de diseño MVC. Trabajos grupales poniendo en práctica metodología SCRUM</p>
+                            <p class="qualification__description" data-section="Education" data-value="EducationFundaLeonDesc">Windows Form with c#, object-oriented programming. Connection to Sql Server database with entity framework, implementation of MVC design pattern. Group work putting into practice SCRUM methodology</p>
                             <span class="qualification__date">2021 - 2021</span>
                         </div>
                         <!-- Education 3-->
                         <div class="qualification__item">
                             <h3 class="qualification__title">Bootcamps</h3>
-                            <p class="qualification__description">Autodidact, APIS openbootcamp,Oracle next education (Java spring)</p>
-                            <span class="qualification__date">2022 - 2023</span>
+                            <p class="qualification__description" data-section="Education" data-value="EducationAutodidact">Autodidact learning, APIS openbootcamp,Oracle next education (Java spring)</p>
+                            <span class="qualification__date">2022 - ...</span>
                         </div>
                     </div>
                 </div>
                 <div class="qualification__footer">
-                    <p class="qualification__footer-text">See my full resume</p>
-                    <a href="www.linkedin.com/in/santiagoyalux" class="btn btn--primary">Resume</a>
+                    <p class="qualification__footer-text" data-section="Education" data-value="resume">See my full resume</p>
+                    <a href="www.linkedin.com/in/santiagoyalux" class="btn btn--primary" data-section="Education" data-value="btnResume">Resume</a>
                 </div>
             </div>
         </section>
@@ -366,7 +361,7 @@
         <div class="container">
             <div class="d-grid footer__wrapper">
                 <div class="footer__content">
-                    <h4 class="footer__title">Follow Me</h4>
+                    <h4 class="footer__title" data-section="Footer" data-value="FollowMe">Follow Me</h4>
                     <ul class="footer__social-list">
 
                         <li class="footer__social-item">
@@ -384,11 +379,11 @@
                     </ul>
                 </div>
                 <div class="footer__content">
-                    <h4 class="footer__title">Email Me</h4>
+                    <h4 class="footer__title" data-section="Footer" data-value="EmailMe">Email Me</h4>
                     <a href="#" class="footer__contact">Santiyalux2@gmail.com</a>
                 </div>
                 <div class="footer__content">
-                    <h4 class="footer__title">Call Me</h4>
+                    <h4 class="footer__title" data-section="Footer" data-value="CallMe">Call Me</h4>
                     <a href="#" class="footer__contact">(381) 4778559</a>
                 </div>
             </div>
