@@ -14,11 +14,18 @@
         "companies_worked":"Compañias"
     },
     "About":{
-        "About-title":"Sobre mí",
-        "About-subtitle":"Quien soy"
+        "title":"Sobre mí",
+        "subtitle":"Quien soy",
+        "title-2":"Acerca de mí",
+        "description":"Aprendiendo programación desde los 17 años, me apasiona solucionar problemas y trabajar en equipo,",
+        "TechnologiesTitle":"Tecnologias"
     },
     "Qualification":{
-
+        "title": "Recorrido",
+        "subtitle":"Experiencia y educación"
+    },
+    "Professional Experience":{
+        
     },
     "Projects":{
 

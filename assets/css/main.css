@@ -352,19 +352,19 @@ body {
 /* About
 --------------------------------------------------------------*/
 .about__content {
-  max-width: 50rem;
-  margin: auto;
-  margin-bottom: 2rem;
+  margin: 0 auto;
+  justify-self: center;
   text-align: center;
 }
 
 .about__title {
   font-size: var(--fs-xxl);
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about__description {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .skills {
@@ -721,9 +721,7 @@ body {
 /* Large devices */
 
 @media screen and (min-width: 968px) {
-  .about__wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
 
   .about__content {
     margin: 0;
